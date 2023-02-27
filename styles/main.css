@@ -129,3 +129,57 @@ a {
   color: var(--bright-red);
   text-decoration: none;
 }
+
+a[href]:hover {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a.button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  transition: background-color 300ms ease;
+}
+
+a.button:hover {
+  background-color: #999;
+  color: #333;
+}
+
+main {
+  margin: 0 auto;
+  padding: 0.25rem, 1rem;
+  max-width: 50rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+article,
+aside {
+  margin-bottom: 5rem;
+}
+
+footer {
+  background-color: var(--lightest-blue);
+  color: var(--dark-blue);
+  padding: 2rem;
+}
